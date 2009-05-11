@@ -1,0 +1,8 @@
+Ruby DataFlow Engine, written by Ho-Sheng Hsiao <hosh@isshen.com>
+
+Copyright (c) 2009 Isshen, LLC
+
+- Each Processor (component) is run inside an EventMachine context
+- Connectors can be in_memory (Ruby Queue) or :amqp (such as RabbitMQ)
+- Journal can be in_memory or a Datamapper object
+- DataFlow can be redone from an arbitrary starting point
